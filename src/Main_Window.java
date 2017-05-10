@@ -89,6 +89,9 @@ public class Main_Window extends JPanel{
 			if(whichMenu.equals("constants")){
 				frame.setSize(850, 600);
 			}
+			if(whichMenu.equals("electro")){
+				frame.setSize(475, 625);
+			}
 			Thread.sleep(10);
 		}
 	}
