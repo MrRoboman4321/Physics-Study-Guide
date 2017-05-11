@@ -89,7 +89,7 @@ public class Drawing{
 		 */
 		graphics.drawImage(home, 0, 0, 100, 100, null);
 		graphics.setFont(new Font("verdana",Font.BOLD,50));
-		graphics.drawString("Constants", 100, 70);
+		graphics.drawString("Thermal Dynamics", 100, 70);
 		graphics.setFont(new Font("verdana",Font.BOLD,30));
 	}
 	@SuppressWarnings("static-access")
@@ -103,7 +103,7 @@ public class Drawing{
 		 */
 		graphics.drawImage(home, 0, 0, 100, 100, null);
 		graphics.setFont(new Font("verdana",Font.BOLD,50));
-		graphics.drawString("Constants", 100, 70);
+		graphics.drawString("Fluid Dynamics", 100, 70);
 		graphics.setFont(new Font("verdana",Font.BOLD,30));
 	}
 	@SuppressWarnings("static-access")
@@ -135,7 +135,9 @@ public class Drawing{
 		graphics.setFont(new Font("verdana",Font.BOLD,50));
 		graphics.drawString("Electronics", 100, 70);
 		graphics.setFont(new Font("verdana",Font.BOLD,30));
-		
+		/*
+		 * 
+		 */
 		graphics.drawImage(fe, 25, 150, null);
 		graphics.drawImage(ue, 25, 200, null);
 		graphics.drawImage(ve, 25, 250, null);
@@ -144,7 +146,9 @@ public class Drawing{
 		graphics.drawImage(c, 25, 400, null);
 		graphics.drawImage(e, 25, 450, null);
 		graphics.drawImage(uc, 25, 500, null);
-		
+		/*
+		 * 
+		 */
 		graphics.drawImage(i, 275, 150, null);
 		graphics.drawImage(r, 275, 200, null);
 		graphics.drawImage(p, 275, 250, null);
@@ -153,50 +157,6 @@ public class Drawing{
 		graphics.drawImage(rp, 275, 400, null);
 		graphics.drawImage(cp, 275, 450, null);
 		graphics.drawImage(cs, 275, 500, null);
-		/*graphics.drawString("F =      *    ", 25, 150);
-		graphics.drawString("ΔU =q*ΔV", 25, 200);
-		graphics.drawString("V=      * ", 25, 250);
-		graphics.drawString("E=  ", 25, 300);
-		graphics.drawString("ΔV= ", 25, 350);
-		graphics.drawString("C=ke * ", 25, 400);
-		graphics.drawString("E=   ", 25, 450);
-		graphics.drawString("U =0.5(QΔV)=0.5C(ΔV)^2", 25, 500);
-		graphics.drawString("I=  ", 25, 550);
-		graphics.drawString("R=  ", 25, 600);
-		graphics.drawString("P=I*ΔV", 530, 150);
-		graphics.drawString("I=  ", 530, 200);
-		graphics.drawString("R =∑R ", 530, 250);
-		graphics.drawString("   =∑  ", 530, 300);
-		graphics.drawString("C =∑C ", 530, 350);
-		graphics.drawString("   =∑  ", 530, 400);
-		graphics.setFont(new Font("verdana",Font.BOLD,20));
-		graphics.drawString("e", 40, 155);
-		graphics.drawString("e", 72, 205);
-		graphics.drawString("1", 100, 135);
-		graphics.fillRect(85, 137, 50, 2);
-		graphics.drawString("4πe ", 85, 155);
-		graphics.setFont(new Font("verdana",Font.BOLD,10));
-		graphics.drawString("0", 127, 157);
-		graphics.setFont(new Font("verdana",Font.BOLD,20));
-		graphics.drawString("q q ", 170, 132);
-		graphics.fillRect(165, 137, 50, 2);
-		graphics.drawString("r^2", 170, 155);
-		graphics.setFont(new Font("verdana",Font.BOLD,10));
-		graphics.drawString("1", 182, 134);
-		graphics.drawString("2", 204, 134);
-		graphics.setFont(new Font("verdana",Font.BOLD,20));
-		graphics.drawString("1", 95, 238);
-		graphics.fillRect(80, 240, 50, 2);
-		graphics.drawString("4πe ", 80, 258);
-		graphics.setFont(new Font("verdana",Font.BOLD,10));
-		graphics.drawString("0", 122, 260);
-		graphics.setFont(new Font("verdana",Font.BOLD,20));
-		graphics.drawString("q", 165, 235);
-		graphics.fillRect(155, 240, 30, 2);
-		graphics.drawString("r", 165, 255);
-		//graphics.drawString("ΔV", , y);
-		 * 
-		 */
 	}
 	@SuppressWarnings("static-access")
 	public void paintMag(Graphics2D graphics){
@@ -209,7 +169,7 @@ public class Drawing{
 		 */
 		graphics.drawImage(home, 0, 0, 100, 100, null);
 		graphics.setFont(new Font("verdana",Font.BOLD,50));
-		graphics.drawString("Constants", 100, 70);
+		graphics.drawString("Magnetism", 100, 70);
 		graphics.setFont(new Font("verdana",Font.BOLD,30));
 	}
 	@SuppressWarnings("static-access")
@@ -223,7 +183,7 @@ public class Drawing{
 		 */
 		graphics.drawImage(home, 0, 0, 100, 100, null);
 		graphics.setFont(new Font("verdana",Font.BOLD,50));
-		graphics.drawString("Constants", 100, 70);
+		graphics.drawString("Waves and Optics", 100, 70);
 		graphics.setFont(new Font("verdana",Font.BOLD,30));
 	}
 	@SuppressWarnings("static-access")
@@ -237,7 +197,9 @@ public class Drawing{
 		 */
 		graphics.drawImage(home, 0, 0, 100, 100, null);
 		graphics.setFont(new Font("verdana",Font.BOLD,50));
-		graphics.drawString("Constants", 100, 70);
+		graphics.drawString("Modern Physics", 100, 70);
 		graphics.setFont(new Font("verdana",Font.BOLD,30));
 	}
+	
+	
 }

@@ -56,43 +56,96 @@ public class ClickHandle{
 				}
 			}
 		}
-		if(menu.whichMenu.equals("constants")){
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("constants")){
+			Rectangle goHome=new Rectangle(0,0,100,100);
+			Rectangle em=new Rectangle(25,130,475,30);
+			Rectangle gas=new Rectangle(25,170,600,30);
+			Rectangle ec=new Rectangle(25,225,495,30);
+			Rectangle ev=new Rectangle(25,275,475,30);
+			Rectangle light=new Rectangle(25,325,315,30);
+			Rectangle plank=new Rectangle(25,375,360,30);
+			Rectangle coul=new Rectangle(25,425,615,30);
+			Rectangle atm=new Rectangle(25,475,610,30);
+			if(goHome.contains(click)){
+				menu.whichMenu="home";
+			}
+			if(em.contains(click)){
+				System.out.println("Electron mass");
+			}
+			if(gas.contains(click)){
+				System.out.println("Gas Constant");
+			}
+			if(ec.contains(click)){
+				System.out.println("Electron charge");
+			}
+			if(ev.contains(click)){
+				System.out.println("electron volt");
+			}
+			if(light.contains(click)){
+				System.out.println("speed of light");
+			}
+			if(plank.contains(click)){
+				System.out.println("plank's constant");
+			}
+			if(coul.contains(click)){
+				System.out.println("coulomb");
+			}
+			if(atm.contains(click)){
+				System.out.println("atm");
+			}
+		}
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("thermo")){
 			Rectangle goHome=new Rectangle(0,0,100,100);
 			if(goHome.contains(click)){
 				menu.whichMenu="home";
 			}
 		}
-		if(menu.whichMenu.equals("thermo")){
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("fluid")){
 			Rectangle goHome=new Rectangle(0,0,100,100);
 			if(goHome.contains(click)){
 				menu.whichMenu="home";
 			}
 		}
-		if(menu.whichMenu.equals("fluid")){
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("electro")){
 			Rectangle goHome=new Rectangle(0,0,100,100);
 			if(goHome.contains(click)){
 				menu.whichMenu="home";
 			}
 		}
-		if(menu.whichMenu.equals("electro")){
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("mag")){
 			Rectangle goHome=new Rectangle(0,0,100,100);
 			if(goHome.contains(click)){
 				menu.whichMenu="home";
 			}
 		}
-		if(menu.whichMenu.equals("mag")){
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("optic")){
 			Rectangle goHome=new Rectangle(0,0,100,100);
 			if(goHome.contains(click)){
 				menu.whichMenu="home";
 			}
 		}
-		if(menu.whichMenu.equals("optic")){
-			Rectangle goHome=new Rectangle(0,0,100,100);
-			if(goHome.contains(click)){
-				menu.whichMenu="home";
-			}
-		}
-		if(menu.whichMenu.equals("modern")){
+		/*
+		 * 
+		 */
+		else if(menu.whichMenu.equals("modern")){
 			Rectangle goHome=new Rectangle(0,0,100,100);
 			if(goHome.contains(click)){
 				menu.whichMenu="home";
