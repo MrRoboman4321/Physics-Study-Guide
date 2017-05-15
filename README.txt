@@ -2,8 +2,8 @@ Final Project for Mr. McComb's class, 2016-17
 
 Project manager:
 	Davin Sones
-Lead programmer:
-	Andrew Struthers
+Software Developers
+	Andrew Struthers and Elias Benevides
 
 Final copy built on: 
 

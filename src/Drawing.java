@@ -53,6 +53,7 @@ public class Drawing{
 		graphics.drawString("Plank's Constant: 6.63*10    J*s", 25, 400);
 		graphics.drawString("Coulomb's Constant: 9.0*10  ", 25, 450);
 		graphics.drawString("1 Atmospheric Pressure: 1.0*10  Pa", 25, 500);
+		graphics.drawString("Gravital Acceleration:  9.8 m/s^2", 25, 550);
 		/*
 		 * 
 		 */
