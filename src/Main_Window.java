@@ -15,7 +15,7 @@ public class Main_Window extends JPanel {
 	
 	public static int screenX = 1366;
 	public static int screenY = 768;
-	
+	public static Graphics2D graphics;
 	public static String whichMenu = "home";
 	/*
 	 * home
@@ -49,14 +49,13 @@ public class Main_Window extends JPanel {
 				}
 			}
 		} catch (IOException e) {
-			//its actually fucking impossible for this not to work so...
 		}
 		line = line.concat("\\images\\");
 		return line;
 	}
 	public void paint(Graphics g) {
 		super.paint(g);
-		Graphics2D graphics = (Graphics2D)g;
+		graphics = (Graphics2D)g;
 		this.setBackground(Color.WHITE);
 		img.paint(graphics);
 	}
