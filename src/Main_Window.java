@@ -73,8 +73,8 @@ public class Main_Window extends JPanel {
 				   if(e.getButton() == MouseEvent.BUTTON1) {
 					   int mouseX = MouseInfo.getPointerInfo().getLocation().x-frame.getX() - 9;
 					   int mouseY = MouseInfo.getPointerInfo().getLocation().y-frame.getY() - 38;
-					   System.out.println(mouseX + ":" + mouseY);
 					   click.handleClick(mouseX, mouseY);
+					   //System.out.println(mouseX+":"+mouseY);
 				   }
 			   }
 			}
@@ -89,6 +89,9 @@ public class Main_Window extends JPanel {
 			}
 			if(whichMenu.equals("constants")) {
 				frame.setSize(850, 600);
+			}
+			if(whichMenu.equals("electro")){
+				frame.setSize(475, 625);
 			}
 			Thread.sleep(10);
 		}

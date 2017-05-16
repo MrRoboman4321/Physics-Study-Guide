@@ -4,6 +4,8 @@ Project manager:
 	Davin Sones
 Lead programmer:
 	Andrew Struthers
+Other programmer:
+    Eli Benevedes
 
 Final copy built on: 
 
