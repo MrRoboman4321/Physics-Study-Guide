@@ -39,7 +39,7 @@ public class Drawing {
 			System.out.println("IO Exception");
 		}
 	}
-
+	
 	public void draw(Graphics2D graphics) {
 		graphics.drawImage(home, 0, 0, 100, 100, null);
 		for(int i = 0; i < images.size(); i++) {
