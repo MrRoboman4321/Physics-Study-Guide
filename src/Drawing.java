@@ -1,28 +1,28 @@
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import javax.imageio.ImageIO;
 public class Drawing {
+	@SuppressWarnings("unused")
 	private static Main_Window menu;
 	private Image textbook;
 	private Image home;
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private List<String[]> positions = new ArrayList();
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private List<Image> images = new ArrayList();
+	@SuppressWarnings({ "static-access", "resource" })
 	public Drawing(Main_Window menu) {
 		this.menu = menu;
 		String equation_path = menu.path() + "\\equations\\" + menu.whichMenu;
 		try {
 			textbook = ImageIO.read(new File(menu.path() + "\\base\\Giancoli-Physics-7th.jpg"));
 			home = ImageIO.read(new File(menu.path() + "\\base\\home.png"));
-			//this.images = new ArrayList();
 		} catch (IOException e) {}
-
-		try {
+		try{
 			FileReader input = new FileReader(equation_path + "\\pos.txt");
 			BufferedReader bufRead = new BufferedReader(input);
 			String line = null;
@@ -34,9 +34,8 @@ public class Drawing {
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("File not found");
+		} catch (IOException e) {
 			e.printStackTrace();
-		}
-		  catch (IOException e) {
 			System.out.println("IO Exception");
 		}
 	}
@@ -48,8 +47,7 @@ public class Drawing {
 		}
 	}
 
-	@SuppressWarnings("static-access")
-	public void paintHome(Graphics2D graphics){
+	public void paintHome(Graphics2D graphics) {
 		graphics.setFont(new Font("verdana", Font.BOLD,40));
 
 		graphics.drawString("Main Menu - Key Concepts", 0, 70);

@@ -66,14 +66,17 @@ public class Main_Window extends JPanel {
 		frame.setSize(screenX, screenY);
 		//frame.setUndecorated(true);
 		frame.setVisible(true);
+		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().addMouseListener(new MouseAdapter() {
 			public void mousePressed(MouseEvent e) {
 				   if(e.getButton() == MouseEvent.BUTTON1) {
-					   int mouseX = MouseInfo.getPointerInfo().getLocation().x-frame.getX() - 9;
-					   int mouseY = MouseInfo.getPointerInfo().getLocation().y-frame.getY() - 38;
+					   int mouseX = MouseInfo.getPointerInfo().getLocation().x-frame.getX() - 8;
+					   int mouseY = MouseInfo.getPointerInfo().getLocation().y-frame.getY() - 30;
+					   
 					   click.handleClick(mouseX, mouseY);
-					   //System.out.println(mouseX+":"+mouseY);
+					   click = new ClickHandle(null);
+					   System.out.println(mouseX+":"+mouseY);
 				   }
 			   }
 			}
@@ -87,10 +90,10 @@ public class Main_Window extends JPanel {
 				frame.setSize(screenX,screenY);
 			}
 			if(whichMenu.equals("constants")) {
-				frame.setSize(850, 600);
+				frame.setSize(850, 650);
 			}
 			if(whichMenu.equals("electro")){
-				frame.setSize(475, 625);
+				frame.setSize(550, 650);
 			}
 			Thread.sleep(10);
 		}
