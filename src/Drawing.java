@@ -60,9 +60,5 @@ public class Drawing {
 		graphics.drawString("Modern Physics - Unit Seven", 0, 700);
 
 		graphics.drawImage(textbook, 800, 0, 494, 700, null);
-		/*
-		 * 
-		 */
 	}
-	
 }
