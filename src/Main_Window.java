@@ -64,7 +64,6 @@ public class Main_Window extends JPanel {
 		Main_Window menu = new Main_Window();
 		frame.add(menu);
 		frame.setSize(screenX, screenY);
-		//frame.setUndecorated(true);
 		frame.setVisible(true);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
