@@ -17,6 +17,7 @@ public class Main_Window extends JPanel {
 	public static int screenY = 768;
 	public static Graphics2D graphics;
 	public static String whichMenu = "home";
+	
 	/*
 	 * home
 	 * constants
@@ -87,12 +88,8 @@ public class Main_Window extends JPanel {
 			frame.repaint();
 			if(whichMenu.equals("home")) {
 				frame.setSize(screenX,screenY);
-			}
-			if(whichMenu.equals("constants")) {
+			} else {
 				frame.setSize(850, 650);
-			}
-			if(whichMenu.equals("electro")){
-				frame.setSize(550, 650);
 			}
 			Thread.sleep(10);
 		}
