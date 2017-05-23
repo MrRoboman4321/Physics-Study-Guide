@@ -12,7 +12,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class Main_Window extends JPanel {
-	
 	public static int screenX = 1366;
 	public static int screenY = 768;
 	public static Graphics2D graphics;
@@ -31,7 +30,8 @@ public class Main_Window extends JPanel {
 	
 	static GraphicsMain img = new GraphicsMain(null);
 	static Drawing draw = new Drawing(null);
-	static ClickHandle click=new ClickHandle(null);
+	static ClickHandle click = new ClickHandle(null);
+	static Explain explain = new Explain(null);
 	
 	public static String path() {
 		ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/c", "cd");
@@ -76,7 +76,7 @@ public class Main_Window extends JPanel {
 					   
 					   click.handleClick(mouseX, mouseY);
 					   click = new ClickHandle(null);
-					   System.out.println(mouseX+":"+mouseY);
+					   //System.out.println(mouseX+":"+mouseY);
 				   }
 			   }
 			}
@@ -84,12 +84,13 @@ public class Main_Window extends JPanel {
 		JOptionPane.showMessageDialog(null, "Click on units/subjects/equations to navigate to different pages. \n"
 				+ "Click the home button to go back to the main menu. \n"
 				+ "Click on image to be redirected to an online physics textbook.");
+		explain.initMap();
 		while(true) {
 			frame.repaint();
 			if(whichMenu.equals("home")) {
 				frame.setSize(screenX,screenY);
 			} else {
-				frame.setSize(850, 650);
+				frame.setSize(850, 750);
 			}
 			Thread.sleep(10);
 		}

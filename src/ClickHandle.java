@@ -30,9 +30,7 @@ public class ClickHandle{
 				whichRect.add(parts[0]);
 			}
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
-			e.printStackTrace();
 		}
 	}
 	@SuppressWarnings("static-access")
@@ -40,7 +38,7 @@ public class ClickHandle{
 		Point click=new Point(x,y);
 		
 		for(int i = 0; i < rects.size(); i++) {
-			if (rects.get(i).contains(click) && ! whichRect.get(i).equals("image")){
+			if (rects.get(i).contains(click) && ! whichRect.get(i).equals("image") && (menu.whichMenu.equals("home") || whichRect.get(i).equals("home"))){
 				menu.whichMenu = whichRect.get(i);
 			} else if (rects.get(i).contains(click) && whichRect.get(i).equals("image")){
 				URL url = null;
@@ -56,6 +54,8 @@ public class ClickHandle{
 					} catch (Exception e) {
 					}
 				}
+			} else if (rects.get(i).contains(click)){
+				menu.explain.explainStuff(whichRect.get(i));
 			}
 		}
 	}
