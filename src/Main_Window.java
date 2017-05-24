@@ -84,7 +84,7 @@ public class Main_Window extends JPanel {
 		JOptionPane.showMessageDialog(null, "Click on units/subjects/equations to navigate to different pages. \n"
 				+ "Click the home button to go back to the main menu. \n"
 				+ "Click on image to be redirected to an online physics textbook.");
-		explain.initMap();
+		//explain.initMap();
 		while(true) {
 			frame.repaint();
 			if(whichMenu.equals("home")) {
