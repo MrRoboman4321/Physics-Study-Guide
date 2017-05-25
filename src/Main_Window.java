@@ -90,7 +90,7 @@ public class Main_Window extends JPanel {
 			if(whichMenu.equals("home")) {
 				frame.setSize(screenX,screenY);
 			} else {
-				frame.setSize(950, 750);
+				frame.setSize(1300, 750);
 			}
 			Thread.sleep(10);
 		}
