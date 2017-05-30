@@ -76,7 +76,8 @@ public class Main_Window extends JPanel {
 					   
 					   click.handleClick(mouseX, mouseY);
 					   click = new ClickHandle(null);
-					   //System.out.println(mouseX+":"+mouseY);
+					   
+					   System.out.println(mouseX+":"+mouseY);
 				   }
 			   }
 			}
@@ -84,12 +85,25 @@ public class Main_Window extends JPanel {
 		JOptionPane.showMessageDialog(null, "Click on units/subjects/equations to navigate to different pages. \n"
 				+ "Click the home button to go back to the main menu. \n"
 				+ "Click on image to be redirected to an online physics textbook.");
-		//explain.initMap();
 		while(true) {
 			frame.repaint();
 			if(whichMenu.equals("home")) {
 				frame.setSize(screenX,screenY);
-			} else {
+			} else if(whichMenu.equals("constants")){
+				frame.setSize(650, 750);
+			} else if(whichMenu.equals("thermo")){
+				frame.setSize(950, 750);
+			} else if(whichMenu.equals("fluid")){
+				frame.setSize(850, 750);
+			} else if(whichMenu.equals("electro")){
+				frame.setSize(1300, 750);
+			} else if(whichMenu.equals("mag")){
+				frame.setSize(1300, 750);
+			} else if(whichMenu.equals("optic")){
+				frame.setSize(1050, 750);
+			} else if(whichMenu.equals("modern")){
+				frame.setSize(750, 750);
+			}else {
 				frame.setSize(1300, 750);
 			}
 			Thread.sleep(10);

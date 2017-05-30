@@ -1,3 +1,7 @@
 1|Pressure is equal to force divided by area.
 
-2|Energy transfered to the system by heating divided by the change in time is equal to\nthe thermal conductivity of the object times area times change in temperature,\ndivided by the thickness of the object. An use for this equation is finding the\nthermal energy transfered into a room through a piece of glass with area 6 m^2 and\na thickness of 2 cm, with a change of temperature between the inside and the outside\nof 20 degrees.
+2|Energy transfered to the system by heating divided by the change in time is equal to_the thermal conductivity of the object times area times change in temperature,_divided by the thickness of the object. An use for this equation is finding the_thermal energy transfered into a room through a piece of glass with area 6 m^2 and_a thickness of 2 cm, with a change of temperature between the inside and the outside_of 20 degrees.
+3|3
+4|4
+5|5
+6|6
