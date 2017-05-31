@@ -1,13 +1,13 @@
-1|The mass of an electron is used in Modern physics, to find the_momentum of light whencalculating the de Broglie wavelength.
-2|The universal gas constant is used in Thermodynamic in the_equation PV=nRT.
-3|Boltzmann's constant is used in Thermodynamics.
+1|The mass of an electron is used in Modern physics, to find the_momentum of light when calculating the de Broglie wavelength.
+2|The universal gas constant is used in Thermodynamics in the_equation PV=nRT.
+3|Boltzmanns constant is used in Thermodynamics.
 4|The charge of an electron is used in Electronics, to find_things such as force of an electric field and strength_of a field at a given point.
 5|1 electron volt is an useful converter between Joules (J)_to Electron Volts (eV).
-6|The speed of light is used in Waves and Optics, and Modern_physics.
+6|The speed of light is used in Waves and Optics, and Modern_Physics.
 7|Gravity constant is the force due to gravity, which is_useful in Fluid Dynamics and calculating pressure.
-8|Acceleration due to gravity is useful in Fluid Dynamics_to calculate pressure of a system and bouyant force.
-9|Plank's constant is very useful for Modern Physics._Plank's constant is required to calculate energy of a_wave, max kinetic energy, and the de Broglie wavelength.
-10|This is most Useful for the Electronics Unit.
+8|Acceleration due to gravity is useful in Fluid Dynamics_to calculate pressure of a system and buoyant force.
+9|Plank's constant is very useful for Modern Physics._Planck’s constant is required to calculate energy of a_wave, max kinetic energy, and the de Broglie wavelength.
+10|This is most useful for the Electronics Unit.
 11|Couloumb's Constant is used for Coulomb's law.
 12|Useful for Fluids.
 

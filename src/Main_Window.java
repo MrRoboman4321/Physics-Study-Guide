@@ -77,7 +77,7 @@ public class Main_Window extends JPanel {
 					   click.handleClick(mouseX, mouseY);
 					   click = new ClickHandle(null);
 					   
-					   //System.out.println(mouseX+":"+mouseY);
+					   System.out.println(mouseX+":"+mouseY);
 				   }
 			   }
 			}

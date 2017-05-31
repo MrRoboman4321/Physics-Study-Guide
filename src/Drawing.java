@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -48,9 +49,14 @@ public class Drawing {
 	}
 
 	public void paintHome(Graphics2D graphics) {
-		graphics.setFont(new Font("verdana", Font.BOLD,40));
-
+		graphics.setColor(Color.decode("#C53652"));
+		graphics.setFont(new Font("verdana", Font.ITALIC + Font.BOLD, 50));
 		graphics.drawString("Main Menu - Key Concepts", 0, 70);
+		graphics.fillRect(-10, 80, 750, 5);
+		
+		graphics.setColor(Color.BLACK);
+		graphics.setFont(new Font("verdana", Font.BOLD,40));
+		
 		graphics.drawString("Constants", 0, 160);
 		graphics.drawString("Thermodynamics - Unit One", 0, 250);
 		graphics.drawString("Fluid Dynamics - Unit Two", 0, 340);
