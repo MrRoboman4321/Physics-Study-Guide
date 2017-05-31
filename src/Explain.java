@@ -13,7 +13,7 @@ public class Explain {
 		this.menu=menu;
 	}
 	private String info = "";
-	@SuppressWarnings({ "static-access", "resource", "unused" })
+	@SuppressWarnings({ "static-access", "resource"})
 	public void explainStuff(String whichNum){
 		info = "";
 		String exp_path = menu.path() + "\\equations\\" + menu.whichMenu;
@@ -24,11 +24,12 @@ public class Explain {
 			while((line = reader.readLine()) != null) {
 				String [] parts = line.split("\\|");
 				if(whichNum.equals("ree")){
-					String path = menu.path() + "\\equations\\" + menu.whichMenu + "\\";
-					ProcessBuilder build = new ProcessBuilder("cmd.exe", "/c", "start ree.bat");
-					build.directory(new File(path));
-					Process p = build.start();
-					break;
+					while(true){
+						int dunzo = JOptionPane.showConfirmDialog(null, "Huzzah");
+						if(dunzo == -1){
+							System.exit(0);
+						}
+					}
 				} else if (parts[0].equals(whichNum) && !(whichNum.contains("image"))){
 					String str=String.valueOf(parts[1]);
 					String[] splitStr = str.split("_");
