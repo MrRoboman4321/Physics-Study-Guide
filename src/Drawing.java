@@ -2,6 +2,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
+import java.awt.Rectangle;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -43,9 +44,21 @@ public class Drawing {
 	
 	public void draw(Graphics2D graphics) {
 		graphics.drawImage(home, 0, 0, 100, 100, null);
+		
 		for(int i = 0; i < images.size(); i++) {
 			graphics.drawImage(images.get(i), Integer.parseInt(this.positions.get(i)[0]), Integer.parseInt(this.positions.get(i)[1]), null);
 		}
+		
+		
+		/*
+		 *  debugging mode for rect.txt stuff
+		 */
+		for(int a = 0; a < menu.click.rects.size(); a++){
+			graphics.fill(new Rectangle(menu.click.rects.get(a)));
+		}
+		/*
+		 * 
+		 */
 	}
 
 	public void paintHome(Graphics2D graphics) {
