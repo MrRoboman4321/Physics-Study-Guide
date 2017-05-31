@@ -28,7 +28,6 @@ public class ClickHandle{
 				Rectangle rect = new Rectangle(Integer.parseInt(parts[1]), Integer.parseInt(parts[2]), Integer.parseInt(parts[3]), Integer.parseInt(parts[4]));
 				rects.add(rect);
 				whichRect.add(parts[0]);
-				System.out.println(parts[0]);
 			}
 		} catch (FileNotFoundException e) {
 		} catch (IOException e) {
