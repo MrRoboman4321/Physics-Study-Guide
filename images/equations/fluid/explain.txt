@@ -4,3 +4,4 @@
 4|The buoyant force of a liquid or solid is equal to density (kg/m^3) times volume_times acceleration due to gravity (9.8 m/s/s).
 5|Initial pressure plus density times gravity times initial height, plus 1/2_density times initial velocity squared, is equal to final pressure plus density_times gravity times final height, plus 1/2 density times final velocity squared.
 6|Area one times velocity one is equal to area two times velocity two. An useful_modification of this equation (A1*v1)/A2=v2.
+image|https://www.youtube.com/watch?v=Fy1ngIoKmeQ&index=15&list=PLa5xw2RkwZ30QxhWEl6TBqN_DvWOEqH57

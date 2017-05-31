@@ -4,5 +4,5 @@
 4|Kinetic energy, measured in Joules, is equal to 3/2 times Boltzmann constant_(kB=1.38*10^-23 J/K), times temperature measured in kelvin. 
 5|Work, measured in Joules, is equal to negative pressure, measured in Pascal’s,_times the change in volume.
 6|The change in internal energy, measured in Kelvin, is equal to energry_transfered to a system by heating plus work done by a system. 
-
+image|https://www.youtube.com/watch?v=-xEjjH54KNI&list=PLa5xw2RkwZ30QxhWEl6TBqN_DvWOEqH57&index=18
 prollyDontUse|Energy transfered to the system by heating divided by the change in time is equal to_the thermal conductivity of the object times area times change in temperature,_divided by the thickness of the object. An use for this equation is finding the_thermal energy transfered into a room through a piece of glass with area 6 m^2 and_a thickness of 2 cm, with a change of temperature between the inside and the outside_of 20 degrees.
