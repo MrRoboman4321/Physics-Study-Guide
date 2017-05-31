@@ -30,7 +30,7 @@ public class Explain {
 						info += String.valueOf(splitStr[a]) + "\n";
 					}
 					JOptionPane.showMessageDialog(null, info);
-				} else if (parts[0].equals(whichNum) && whichNum.equals("image")){
+				} else if (parts[0].contains(whichNum) && whichNum.contains("image")){
 					URL url = null;
 					try {
 						System.out.println(parts[1]);
