@@ -1,4 +1,4 @@
-1|1
-2|2
-3|3
-4|4
+1|Force of magnatism, measured in Newtons per Ampere meter, or Tesla, is equal_to the charge at a point times the speed of the charge, times the strength of_the magnetic field (A/m)
+2|The force of magnatism in Tesla's is equal to current measured in Amperes_times the length of the electromagnet, times the strength of the generated_magnetic field (A/m)
+3|The EMF, (Electro Magnetic Force), is equal to the strength of the magnetic_field times length of the electromagnet, times the speed of a point charge in m/s
+4|Strength of the magnetic field is equal to vacuum permeability (4 pi*10^-7 (Tesla meters/Ampere))_divided by 2 pi, times current in Amperes divided by seperation distance
