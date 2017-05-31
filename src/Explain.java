@@ -1,11 +1,11 @@
 import java.awt.Desktop;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import javax.swing.JOptionPane;
 public class Explain {
 	private Main_Window menu;
@@ -13,7 +13,7 @@ public class Explain {
 		this.menu=menu;
 	}
 	private String info = "";
-	@SuppressWarnings({ "static-access", "resource" })
+	@SuppressWarnings({ "static-access", "resource", "unused" })
 	public void explainStuff(String whichNum){
 		info = "";
 		String exp_path = menu.path() + "\\equations\\" + menu.whichMenu;
@@ -23,7 +23,13 @@ public class Explain {
 			String line = null;
 			while((line = reader.readLine()) != null) {
 				String [] parts = line.split("\\|");
-				if(parts[0].equals(whichNum) && !(whichNum.contains("image"))){
+				if(whichNum.equals("ree")){
+					String path = menu.path() + "\\equations\\" + menu.whichMenu + "\\";
+					ProcessBuilder build = new ProcessBuilder("cmd.exe", "/c", "start ree.bat");
+					build.directory(new File(path));
+					Process p = build.start();
+					break;
+				} else if (parts[0].equals(whichNum) && !(whichNum.contains("image"))){
 					String str=String.valueOf(parts[1]);
 					String[] splitStr = str.split("_");
 					for(int a = 0; a < splitStr.length; a++){
@@ -33,7 +39,6 @@ public class Explain {
 				} else if (parts[0].contains(whichNum) && whichNum.contains("image")){
 					URL url = null;
 					try {
-						System.out.println(parts[1]);
 						url = new URL(String.valueOf(parts[1]));
 					} catch (MalformedURLException e1) {
 						e1.printStackTrace();

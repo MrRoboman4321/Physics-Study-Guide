@@ -1,6 +1,6 @@
 1|Density, measured in Kilograms per cubic meter (kg/m^3), is equal to mass in Kilograms_divided by volume. 
 2|Pressure is equal to force divided by area. Pressure is measured in Pascal’s and force_is measured in Newton’s. A modification of this equation is F=P*A, which is also useful.
 3|Pressure, measured in Pascal’s, is equal to the initial pressure plus density times_acceleration due to gravity (9.8 m/s/s) times the height the object.
-4|The buoyant force of a liquid or solid is equal to density (kg/m^3) times volume_times acceleration due to gravity (9.8 m/s/s)
+4|The buoyant force of a liquid or solid is equal to density (kg/m^3) times volume_times acceleration due to gravity (9.8 m/s/s).
 5|Initial pressure plus density times gravity times initial height, plus 1/2_density times initial velocity squared, is equal to final pressure plus density_times gravity times final height, plus 1/2 density times final velocity squared.
 6|Area one times velocity one is equal to area two times velocity two. An useful_modification of this equation (A1*v1)/A2=v2.

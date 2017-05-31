@@ -1,4 +1,4 @@
-1|Energy is equal to Planck's constant times the frequency of light. The frequency of_light is equal to the speed of light divided by the wavelength
-2|The maximum kinetic energy is equal to Plank's constant times the frequency of light_minus the work function of the material. A different form of this equation is the_work function is equal to Plank's constant times the frequency of light, minus_the maximum kinetic energy
-3|The de Broglie wavelength of light is equal to Plank's constant divided by the momentum_of the light. The momentum can be calculated by multiplying mass times velocity
-4|Energy is equal to mass times the speed of light in a vacuum squared
+1|Energy is equal to Planck's constant times the frequency of light. The frequency of_light is equal to the speed of light divided by the wavelength.
+2|The maximum kinetic energy is equal to Plank's constant times the frequency of light_minus the work function of the material. A different form of this equation is the_work function is equal to Plank's constant times the frequency of light, minus_the maximum kinetic energy.
+3|The de Broglie wavelength of light is equal to Plank's constant divided by the momentum_of the light. The momentum can be calculated by multiplying mass times velocity.
+4|Energy is equal to mass times the speed of light in a vacuum squared.
