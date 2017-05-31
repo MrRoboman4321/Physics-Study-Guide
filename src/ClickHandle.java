@@ -40,7 +40,7 @@ public class ClickHandle{
 		for(int i = 0; i < rects.size(); i++) {
 			if (rects.get(i).contains(click) && ! whichRect.get(i).equals("image") && (menu.whichMenu.equals("home") || whichRect.get(i).equals("home"))){
 				menu.whichMenu = whichRect.get(i);
-			} else if (rects.get(i).contains(click) && whichRect.get(i).equals("image")){
+			} else if (rects.get(i).contains(click) && whichRect.get(i).equals("image") && (menu.whichMenu.equals("home"))){
 				URL url = null;
 				try {
 					url = new URL("http://fcis.aisdhaka.org/personal/chendricks/IB/Giancoli/Giancoli%20Chapters.html");
