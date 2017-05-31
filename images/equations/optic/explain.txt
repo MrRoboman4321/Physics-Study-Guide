@@ -1,6 +1,6 @@
-1|Wavelength (lambda) is proportional to the speed (v) through with the light travels over the frequency (f)
-2|The index of refraction (n) is equal to the speed of light (c, check constants if unmemorized) over the speed of light through the medium (v). 
-3|Snell's law. The index of refraction (n1) multiplied by the angle of incidence (theta 1) in a medium is equal to the product of the index of refraction (n2) and angle of reflection (theta 2)of a second second medium.
-4|The inverse of the focal length (f) is equivalent to the inverse of the object distance (Si) added to the inverse of the image distance (So). 
-5|Magnification is equal to the height of the image (Hi) over the height of the object (Ho). It is also equal to the distance of the image (Si) over the distance of the object (So). 
-6|Equation for the Double Slit Experiment: the distance between two slits (d) multiplied by the angle of a spot on the screen and the midline (theta) is equal to an integer (m) multiplied by the wavelength (lambda)
+1|Wavelength (lambda) is proportional to the speed (v)_through with the light travels over the frequency (f)
+2|The index of refraction (n) is equal to the speed of_light (c, check constants if not memorized) over the_speed of light through the medium (v). 
+3|Snell's law. The index of refraction (n1) multiplied_by the angle of incidence (theta 1) in a medium is equal_to the product of the index of refraction (n2) and angle of_reflection (theta 2) of a second medium.
+4|The inverse of the focal length (f) is equivalent to_the inverse of the object distance (Si) added to the_inverse of the image distance (So). 
+5|Magnification is equal to the height of the image (Hi)_over the height of the object (Ho). It is also equal to_the distance of the image (Si) over the distance of the_object (So). 
+6|Equation for the Double Slit Experiment: the distance_between two slits (d) multiplied by the angle of a spot_on the screen and the midline (theta) is equal to an_integer (m) multiplied by the wavelength (lambda)

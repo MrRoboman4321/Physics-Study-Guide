@@ -52,7 +52,7 @@ public class Drawing {
 
 		graphics.drawString("Main Menu - Key Concepts", 0, 70);
 		graphics.drawString("Constants", 0, 160);
-		graphics.drawString("Thermal Dynamics - Unit One", 0, 250);
+		graphics.drawString("Thermodynamics - Unit One", 0, 250);
 		graphics.drawString("Fluid Dynamics - Unit Two", 0, 340);
 		graphics.drawString("Electronics - Unit Three and Four", 0, 430);
 		graphics.drawString("Magnetism - Unit Five", 0, 520);

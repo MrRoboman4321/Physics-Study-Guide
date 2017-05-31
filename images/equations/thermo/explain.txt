@@ -1,9 +1,8 @@
-1|Pressure is equal to force divided by area. Pressure is measured in Pascals and force_is measured in Newtons. A modification of this equation is F=P*A, which is also useful.
-
-2|Energy of a system, measured in Joules, divided by the change in time is equal to_thermal conductivity, measured in watts per meter-kelvin, times area times change in_temperature divided by thickness of the material.
-3|Pressure, measured in Pascals, times volume, is equal to the number of moles_times molar volume times temperature. Molar volume is equal to R=0.08206 when rounded_to four significant figures. Pressure times volume is also equal to the number of molecules_times Boltzmann constant (kB=1.38*10^-23 J/K), times temperature measured in Kelvin.
+1|Pressure is equal to force divided by area. Pressure is measured in Pascal’s and force_is measured in Newton’s. A modification of this equation is F=P*A, which is also useful.
+2|Energy of a system, measured in Joules, divided by the change in time is equal to_thermal conductivity, measured in watts per meter-kelvin, times area times change in _temperature divided by thickness of the material.
+3|Pressure, measured in Pascal’s, times volume, is equal to the number of moles_times molar volume times temperature. Molar volume is equal to R=0.08206 when rounded_to four significant figures. Pressure times volume is also equal to the number of molecules_times Boltzmann constant (kB=1.38*10^-23 J/K), times temperature measured in Kelvin.
 4|Kinetic energy, measured in Joules, is equal to 3/2 times Boltzmann constant_(kB=1.38*10^-23 J/K), times temperature measured in kelvin. 
-5|Work, measured in Joules, is equal to negative pressure, measured in Pascals,_times the change in volume.
+5|Work, measured in Joules, is equal to negative pressure, measured in Pascal’s,_times the change in volume.
 6|The change in internal energy, measured in Kelvin, is equal to energry_transfered to a system by heating plus work done by a system. 
 
 prollyDontUse|Energy transfered to the system by heating divided by the change in time is equal to_the thermal conductivity of the object times area times change in temperature,_divided by the thickness of the object. An use for this equation is finding the_thermal energy transfered into a room through a piece of glass with area 6 m^2 and_a thickness of 2 cm, with a change of temperature between the inside and the outside_of 20 degrees.
