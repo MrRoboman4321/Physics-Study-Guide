@@ -11,4 +11,4 @@ home 0 0 100 100
 10 25 550 491 45
 11 25 600 418 45
 12 25 650 558 45
-image 100 0 50 50 www.google.com
+imageDONOTTOUCH 200 0 50 50 www.google.com

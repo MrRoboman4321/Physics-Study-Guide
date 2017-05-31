@@ -23,7 +23,7 @@ public class Explain {
 			String line = null;
 			while((line = reader.readLine()) != null) {
 				String [] parts = line.split("\\|");
-				if(parts[0].equals(whichNum) && !(whichNum.equals("image"))){
+				if(parts[0].equals(whichNum) && !(whichNum.contains("image"))){
 					String str=String.valueOf(parts[1]);
 					String[] splitStr = str.split("_");
 					for(int a = 0; a < splitStr.length; a++){
