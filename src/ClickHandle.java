@@ -12,9 +12,9 @@ import java.util.List;
 public class ClickHandle{
 	private Main_Window menu;
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	private List<Rectangle> rects = new ArrayList();
+	public List<Rectangle> rects = new ArrayList();
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	private List<String> whichRect = new ArrayList();
+	public List<String> whichRect = new ArrayList();
 	@SuppressWarnings({ "static-access", "resource" })
 	public ClickHandle(Main_Window menu){
 		this.menu = menu;
