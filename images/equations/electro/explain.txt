@@ -1,16 +1,16 @@
-1|1
-2|2
-3|3
-4|4
-5|5
-6|6
-7|7
-8|8
-9|9
-10|10
-11|11
-12|12
-13|13
-14|14
-15|15
-16|16
+1|Coulomb's Law: The magnitude of the electrostatic force, in Newtons,between two point charges in vacuum is directly proportional to the magnitudes of each charge and inversely proportional to the square of the distance between the charges.
+2|Potential (stored energy in Joules; U sub E) is equal to a point charge (q) multiplied by the change in electric potential (V).
+3|This is essentially Coulomb's law without the square of the separation term (r), and only one charge value (q). The use is to find Voltage, as opposed to electostatic force.
+4|Electric Field (Volts/Metre OR Newtons/Coulomb) is equal to the change in Voltage/electric potential (V) over the change in separation (r).
+5|The change in Electric Potential (Volts) is equal to Charge (Q) over Capacitance (C).
+6|Capacitance in farads is directly proportional to the product of the dielectric constant (k) and the permittivity of a vacuum (Epsilon Nought) multiplied by the Area of the plate (or otherwise) over the separation between the two (d).
+7|Electric Field (Volts/Metre OR Newtons/Coulomb) is equal to Charge (Q) over the product of the Permittivity of a Vacuum (Epsilon Nought) and the Area (A).
+8|The potential energy (Joules) of a capacitor is equal to one-half of the charge (1/2Q) times the potential difference (V) which is equal to one-half of the capacitance (1/2C) times the potential difference squared (V²).
+9|Current in Amperes (I) is directly proportional to the change in Charge (Q) over the change in time (t, seconds).
+10|The Resistance (R) of an object (Ohms) is equal to the product of the object's resistivity (p) and length (l) divided by the Area of the object (A). 
+11|Power (Watts) is directly proportional to Current (I) multiplied by the Voltage (V). Simpler form is P=IV.
+12|Current in Amperes (I) is equal to Voltage (V) over Resistance (R). The famous form is V=IR.
+13|Used to calculate resistance in series. The resistance in series is equal to the sum of each resistor added. The sigma is just a fancy way of addition notation. 
+14|Used for resistors in parallel. The inverse of the resistance in parallel is equal to the inverse of the value of each resistor added( I.e. 1/3 + 1/7 + 1/67). 
+15|Used for capacitors in parallel. The capacitance (C, farads) is equal to the added values of each capacitor. Think of this equation as akin to the Resistors in Series Equation.
+16|Used for series capacitors. The inverse of the total capacitance is equal to the sum of the inverses of each value of capacitor in the series. Think of this equation akin to The Resistors in Parallel Equation. 
