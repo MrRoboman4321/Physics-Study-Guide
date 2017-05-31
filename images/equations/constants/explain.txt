@@ -7,9 +7,9 @@
 7|Gravity constant is the force due to gravity, which is_useful in Fluid Dynamics and calculating pressure
 8|Acceleration due to gravity is useful in Fluid Dynamics_to calculate pressure of a system and bouyant force
 9|Plank's constant is very useful for Modern Physics._Plank's constant is required to calculate energy of a_wave, max kinetic energy, and the de Broglie wavelength
-10|10
-11|11
-12|12
+10|This is most Useful for the Electronics Unit 
+11|Couloumb's Constant is used for Coulomb's law
+12|Useful for Fluids
 
 
 
