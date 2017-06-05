@@ -98,11 +98,11 @@ public class Main_Window extends JPanel {
 			} else if(whichMenu.equals("electro")){
 				frame.setSize(1300, 750);
 			} else if(whichMenu.equals("mag")){
-				frame.setSize(550, 750);
+				frame.setSize(650, 650);
 			} else if(whichMenu.equals("optic")){
-				frame.setSize(1050, 750);
+				frame.setSize(1050, 650);
 			} else if(whichMenu.equals("modern")){
-				frame.setSize(750, 750);
+				frame.setSize(750, 600);
 			}else {
 				frame.setSize(1300, 750);
 			}

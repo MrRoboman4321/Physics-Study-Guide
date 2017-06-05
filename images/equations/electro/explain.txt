@@ -15,3 +15,4 @@
 15|Used for capacitors in parallel. The capacitance (C, farads) is equal to_the added values of each capacitor. Think of this equation as akin to_the Resistors in Series Equation.
 16|Used for series capacitors. The inverse of the total capacitance is equal_to the sum of the inverses of each value of capacitor in the series._Think of this equation akin to The Resistors in Parallel Equation.
 17|Electrical Team Wuz Here
+image|https://www.youtube.com/watch?v=Qf7suZmj4wc&list=PLa5xw2RkwZ30QxhWEl6TBqN_DvWOEqH57&t=1s&index=19
