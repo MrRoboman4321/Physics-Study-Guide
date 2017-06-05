@@ -2,7 +2,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.Rectangle;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,17 +47,6 @@ public class Drawing {
 		for(int i = 0; i < images.size(); i++) {
 			graphics.drawImage(images.get(i), Integer.parseInt(this.positions.get(i)[0]), Integer.parseInt(this.positions.get(i)[1]), null);
 		}
-		
-		
-		/*
-		 *  debugging mode for rect.txt stuff
-		 */
-		for(int a = 0; a < menu.click.rects.size(); a++){
-			graphics.fill(new Rectangle(menu.click.rects.get(a)));
-		}
-		/*
-		 * 
-		 */
 	}
 
 	public void paintHome(Graphics2D graphics) {
@@ -78,6 +66,6 @@ public class Drawing {
 		graphics.drawString("Waves and Optics - Unit Six", 0, 610);
 		graphics.drawString("Modern Physics - Unit Seven", 0, 700);
 
-		graphics.drawImage(textbook, 800, 0, 494, 700, null);
+		graphics.drawImage(textbook, 875, 0, 494, 700, null);
 	}
 }

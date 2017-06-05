@@ -56,6 +56,7 @@ public class ClickHandle{
 				}
 			} else if (rects.get(i).contains(click)){
 				menu.explain.explainStuff(whichRect.get(i));
+				
 			}
 		}
 	}

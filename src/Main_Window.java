@@ -16,6 +16,7 @@ public class Main_Window extends JPanel {
 	public static int screenY = 768;
 	public static Graphics2D graphics;
 	public static String whichMenu = "home";
+	public static boolean quizMode = false;
 	
 	/*
 	 * home
