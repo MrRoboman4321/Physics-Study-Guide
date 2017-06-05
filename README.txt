@@ -5,7 +5,7 @@ Project manager:
 Software Developers
 	Andrew Struthers and Elias Benevides
 
-Final copy built on: 31 May 2017
+Final copy built on: 6 June 2017
 
 Somewhat interactive physics two study guide. 
 Key equations and sample questions/answers for each unit.
